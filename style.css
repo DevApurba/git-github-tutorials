@@ -19,7 +19,7 @@ body{
     font-weight: 700;
     font-family: monospace;
 }
-.box input[type="email"], .box input[type="password"] {
+.box input[type="text"], .box input[type="email"], .box input[type="password"]{
     border: 0;
     background: azure;
     display: block;
@@ -34,7 +34,7 @@ body{
     transition: 0.25px;
 }
 
-.box input[type="email"]:focus, .box input[type="password"]:focus {
+.box input[type="text"]:focus, .box input[type="email"]:focus, .box input[type="password"]:focus{
     width: 240px;
     border-color: rgb(251, 255, 3);
 }
