@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+.box{
+    position: absolute;
+    width: 300px;
+    padding: 30px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: rgb(35, 36, 36);
+    text-align: center;
+}
+.box h1{
+    color: rgb(0, 174, 255);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: monospace;
+}
+.box input[type="email"], .box input[type="password"] {
+    border: 0;
+    background: azure;
+    display: block;
+    margin: 20px auto;
+    text-align: center center;
+    border: 3px solid rgb(0, 153, 255);
+    padding: 14px 14px;
+    width: 200px;
+    outline: none;
+    color: azure;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.box input[type="email"]:focus, .box input[type="password"]:focus {
+    width: 240px;
+    border-color: rgb(251, 255, 3);
+}
